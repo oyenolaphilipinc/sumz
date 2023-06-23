@@ -1,21 +1,21 @@
-import Hero from "./components/Hero";
-import Demo from "./components/Demo";
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './Home'
+import Login from './components/Login'
+import Accountup from './components/Accountup'
+import Summarize from './components/Summarize'
 
-import "./App.css";
-
-const App = () => {
+function App() {
   return (
-    <main>
-      <div className='main'>
-        <div className='gradient' />
-      </div>
-
-      <div className='app'>
-        <Hero />
-        <Demo />
-      </div>
-    </main>
-  );
-};
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/account" element={<Accountup />} />
+        <Route path="/summarize" element={<Summarize />} />
+      </Routes>
+    </Router>
+  )
+}
 
 export default App;

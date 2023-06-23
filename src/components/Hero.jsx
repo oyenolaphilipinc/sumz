@@ -7,16 +7,14 @@ const Hero = () => {
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
         <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
-
-        <button
-          type='button'
-          onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
-          }
-          className='black_btn'
-        >
-          GitHub
-        </button>
+	<div>
+    <a href="/login">
+		<button
+		  type="button"
+		  className='black_btn'
+		>Login</button>
+	  </a>
+          </div>
       </nav>
 
       <h1 className='head_text'>
