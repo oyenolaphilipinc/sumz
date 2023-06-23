@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
-
-import { copy, linkIcon, loader, tick } from "../assets";
+import copy from "../assets/copy.svg";
+import linkIcon from "../assets/link.svg";
+import loader from "../assets/loader.svg";
+import tick from "../assets/tick.svg";
 import { useLazyGetSummaryQuery } from "../services/article";
 
 const Demo = () => {

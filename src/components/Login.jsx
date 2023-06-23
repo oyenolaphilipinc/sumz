@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { supabase } from './config'
 import Auth from './auth'
 import Account from './Account'
-import Accountup from './Accountup'
 
 function Login() {
   const [session, setSession] = useState(null)
