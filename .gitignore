@@ -26,6 +26,3 @@ vercel.json
 
 # vscode
 .vscode
-
-# env
-.env
