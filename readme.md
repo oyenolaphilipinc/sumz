@@ -2,10 +2,10 @@
 ![AI Summarizer](https://i.ibb.co/NK12JG2/Thumbnail-26.png)
 
 ## Introduction
-If you're a solo developer in 2023, you have the power to build robust AI software startups! Watch this 1-hour video and make an Article Summarizer Application using OpenAI's GPT model.
+Summize is an AI product built and managed by Dimanica. This product utilizes the power of AI to give you an edge to what you use in Real world. Summize is built with a lot of features in mind.
  
-Alongside building this application, you'll also learn how to:
-- setup a ReactJS project using Vite
+Features of Summize
+- Summarize an article from the web
 - create a responsive, beautiful UI/UX with a nice touch of glass morphism using Tailwind CSS
 - make advanced RTK query API requests that fire on condition
 - save history using the local storage
