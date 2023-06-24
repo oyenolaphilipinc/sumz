@@ -13,6 +13,6 @@ Features of Summize
 - implement copy to clipboard
 - write clean code
 
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
+## Want to test it out in Beta
+⭐ We are launching soon ...
 Become a Software Engineer. Guaranteed.
