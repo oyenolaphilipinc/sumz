@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { supabase } from './config'
-import logo from '../assets/logo.svg'
 import { Spinner } from 'flowbite-react';
 import { Button, Checkbox, Label, TextInput } from 'flowbite-react';
 
