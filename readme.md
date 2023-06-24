@@ -6,7 +6,7 @@ Summize is an AI product built and managed by Dimanica. This product utilizes th
  
 Features of Summize
 - Summarize an article from the web
-- create a responsive, beautiful UI/UX with a nice touch of glass morphism using Tailwind CSS
+- Nice UI built by Dimanica team
 - make advanced RTK query API requests that fire on condition
 - save history using the local storage
 - handle form events and catch errors
