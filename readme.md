@@ -15,4 +15,4 @@ Features of Summize
 
 ## Want to test it out in Beta
 ⭐ We are launching soon ...
-Become a Software Engineer. Guaranteed.
+Summize is the best product you can find out there
