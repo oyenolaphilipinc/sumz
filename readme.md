@@ -9,7 +9,7 @@ Features of Summize
 - Nice UI built by Dimanica team
 - Summarize PDF that are complex to read
 - Nice pricing that doesn't break your bank
-- handle form events and catch errors
+- More Features that utilises AI
 - implement copy to clipboard
 - write clean code
 
