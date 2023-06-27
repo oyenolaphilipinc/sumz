@@ -13,7 +13,7 @@ export default function Account() {
     <div className=''>
     <Navbar
       fluid
-      className="border nav bg-[#23242a]  z-10 border-none  border-gray-100 w-[90vw] fixed top-0"
+      className="border  nav bg-[#23242a]  z-10 border-none  border-gray-100 fixed top-0"
     >
       <Navbar.Brand href="/">
         <img
@@ -25,7 +25,7 @@ export default function Account() {
           Sumz
         </span>
       </Navbar.Brand>
-      <div className="flex join  ">
+      <div className="flex  join  ">
         <Dropdown className='dropdown   m-0 p-o'
           inline
           label={<img alt="User settings" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" className="  rounded-full   h-10 w-10"/>}
@@ -56,34 +56,34 @@ export default function Account() {
         <Navbar.Toggle />
       </div>
       
-      <Navbar.Collapse className='hang  resize'>
+      <Navbar.Collapse className='hang'>
         <Navbar.Link
           active
-        className='text-[15px] text-white font-[1000]'
+        className='text-[15px] w text-white  font-[1000]'
           href="#"
         >
             Home
         </Navbar.Link >
         <Navbar.Link
-        className='color text-[15px] hover:text-[#1c1c1c] text-white font-[1000] opacity-100'
+        className='color text-[15px] w hover:text-[#1c1c1c] text-white font-[1000] opacity-100'
         href="/account">
           Settings
         </Navbar.Link>
         <Navbar.Link 
-        className='color text-white hover:text-[#1c1c1c] text-[15px] mt-[-1px] font-[1000] opacity-100'
+        className='color text-white w hover:text-[#1c1c1c] text-[15px] mt-[-1px] font-[1000] opacity-100'
         href="/pricing">
           Pricing
         </Navbar.Link>
       </Navbar.Collapse>
     
     </Navbar>
-    <div className="mt-[12vh] border  w-[90vw] bg-[#23242a]  border-t-white py-12 flex justify-around">
+    <div className="mt-[12vh] mx-auto border stay  bg-[#23242a]  border-t-white py-12 flex justify-around">
         <h1 className="text-2xl  text-white-900 font-[800]">Dashboard</h1>
         <a href="/summarize">
         <button className="border border-white bg-black text-white px-4 py-1.5 rounded-lg font-bold hover:bg-white hover:text-black  hover:border-black">Summarize</button>
         </a>
     </div>
-    <div className="mt-6  relative anim bg-[black] br3  h-[80vh]  ">
+    <div className="mt-6 stay mx-auto  relative anim bg-[black] br3  h-[80vh]  ">
     <div className="borderLine"></div>
     <div className="borderLine2"></div>
         <Card className="pushdown br2 mt-[55px]  bg-[#23242a] mx-[5px]    h-[79vh]  ">

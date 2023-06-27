@@ -92,7 +92,7 @@ export default function Auth() {
         Remember me
       </Label>
     </div>
-    <Button className='bg-[#1c1c1c]'  type=" submit">
+    <Button className='bg-[#23242A] '  type=" submit">
     {loading ? <Spinner aria-label="Spinner button example" />  : <span className='text-white font-[1000] text-[20px]'>Sign up</span>}
     </Button>
 

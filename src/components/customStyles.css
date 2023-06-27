@@ -5,7 +5,7 @@
   }
   .anim {
     overflow: hidden;
-    width: 90vw;
+    width: 87vw;
     
   }
   .borderLine{
@@ -124,6 +124,9 @@
     transform: translateX(-25vw);
   }
   @media only screen and (max-width:768px ) {
+    .w {
+      width:80vw;
+    }
     .resize{ margin: 0px;
       
     }
@@ -131,9 +134,7 @@
       
       margin-right: -25vw;
     }
-    .containBody {
-      width:96.5vw;
-    }
+    
   .color {
     background-color: #23242a;
     cursor: pointer;
@@ -141,23 +142,52 @@
   
   
     .hang{
-    /* position: fixed; */
+    position: fixed;
     
+   
     font-weight: 900;
+    top:8vh;
     
-    width: 40vw;
   } 
   .pushdown{
     height: 78vh;
+  }
+  .nav {
+    width: 87vw;
   }
   }
   .smooth {
     transition: 0.5s;
   }
-  
-  @media only screen and (min-width:768px ) {
+  @media only screen and (min-width:1000px ) {
+    .containBody{
+      width: 100vw;
+    }
+    .join{
+      
+      margin-right: -110vw;
+    }
+    .nav {
+      width: 830px;
+      transform: translateX(10vw);
+    }
+    .stay {
+      
+      width: 480px;
+     
+      
+    }
+    .hang {
+      transform: translateX(-250px);
+    }
+  }
+  @media only screen and (min-width:768px ) and (max-width:1000px){
     .containBody{
       width: 99vw;
+    }
+    .stay {
+      width: 480px;
+      
     }
     .join{
       
@@ -169,15 +199,17 @@
       margin-right: 0.5vw; */
     }
     .hang{
+      /* width: 85vw; */
       
+      transform: translateX(-250px);
+    
       
       font-weight: 900;
-      width: 50vw;
+      
     } 
     .resize{ margin: 0px;
       
       width: 50vw;
-      transform: translateX(-30vw);
    }
    
    div Navbar {
@@ -187,7 +219,9 @@
   
     transform: translateX(100vw);
   }
-  
+  .nav {
+    width: 87vw;
+  }
   }
   .passcode {
     display: flex;
