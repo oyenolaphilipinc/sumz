@@ -16,6 +16,11 @@
   pointer-events: none;
 }
 
+div{
+  padding: 0px;
+  margin:0 0%;
+  box-sizing: border-box;
+}
 .main:before {
   background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
   position: absolute;
@@ -36,7 +41,9 @@
   top: 0;
   opacity: 0.4;
   filter: invert(1);
+  
 }
+
 
 .gradient {
   height: fit-content;
@@ -100,7 +107,7 @@
 }
 
 .link_card {
-  @apply p-3 flex justify-start items-center flex-row bg-white border border-gray-200 gap-3 rounded-lg cursor-pointer;
+  @apply p-3 flex justify-start items-center flex-row bg-white border border-gray-200 gap-3  cursor-pointer;
 }
 
 .copy_btn {
