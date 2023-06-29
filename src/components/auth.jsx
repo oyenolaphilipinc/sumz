@@ -36,7 +36,7 @@ export default function Auth() {
 
   }
   return (
-    <div className='containBody'>
+    <div className='w-[100%] absolute h-[100%] bg-[#1c1c1c]'>
     <form className="flex max-w-md flex-col mx-auto mt-32 gap-4" onSubmit={handleLogin}>
     <div>
       <div className="mb-2 block">
@@ -64,23 +64,27 @@ export default function Auth() {
           value="Your password"
         />
       </div>
-      <div className="passcode">
+      <div className="flex">
 
       <input
         id="password1"
         required
         type="password"
-        className='textinput'
+        className='textinput rounded-tl-[10px] rounded-bl-[10px] border-r-0 opacity-100 bg-white text-white px-[10px] font-[900] w-[400px] transition-all duration-1000 '
         />
-    <div className="containedImages">
+    <div className="containedImages flex justify-center  h-[45px] w-[40px] bg-[#1c1c1c] rounded-tr-[10px] rounded-br-[10px] border-l-0">
 
     <img
       onClick={handleSee}
-      src={EyesClosed}>
+      src={EyesClosed}
+      className="w-[30px] h-[30px] cursor-pointer"
+      >
     </img>
     <img
       onClick={handleHide}
-      src={eyesOpen}>
+      src={eyesOpen}
+      className="cursor-pointer"
+      >
     </img>
         </div>
     </div>
@@ -88,7 +92,7 @@ export default function Auth() {
         
     <div className="flex items-center gap-2">
       <Checkbox id="remember" />
-      <Label className='text-white font-[1000] text-[15x]' htmlFor="remember">
+      <Label className='text-white font-[1000] ' htmlFor="remember">
         Remember me
       </Label>
     </div>

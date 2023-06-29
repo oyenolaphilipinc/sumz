@@ -1,23 +1,10 @@
 /* biginning of custom styling */
-/* border radius of the dropdown */
-.br3{
-    border-radius: 10px;
-  }
-  .anim {
-    overflow: hidden;
-    width: 87vw;
-    
-  }
-  .borderLine{
-    position: absolute;
-    top: 0;
-    inset: 0;
-    /* overflow: hidden; */
-  }
+
+
   
   .borderLine2::before {
   content: '';
-  width: 80vw;
+  width: 400px;
   height: 78vh;
   background-color: blue;
   position: absolute;
@@ -30,7 +17,7 @@
 }
 .borderLine2::after {
   content: '';
-  width: 80vw;
+  width: 400px;
   height: 78vh;
   background-color: blue;
   position: absolute;
@@ -45,7 +32,7 @@
   }
 .borderLine::before {
     content: '';
-    width: 80vw;
+    width: 400px;
     height: 78vh;
     background-color: blue;
     position: absolute;
@@ -61,7 +48,7 @@
     
   .borderLine::after {
     content: '';
-    width: 80vw;
+    width: 400px;
     height: 78vh;
     background-color: blue;
     position: absolute;
@@ -83,163 +70,10 @@
       transform: rotate(360deg);
     }
   }
-  .br{
-    border-top-left-radius: 20px;
-  }
-  .br1{
-    border-bottom-left-radius: 20px;
-    z-index: 20;
-  }
-  .pushdown {
-    transform: translateY(-8vh);
-    
-    
-  }
-  .br2{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  .dropdown{
-  
-  
-  outline: none;
-  border: none;
-  }
-  .containBody {
-    background-color: #1c1c1c;
-    color: white;
-    position: absolute;
-    min-height: 120vh;
-    width: 95.5vw;
-  }
 
-  .nav{
-    background-color: #1c1c1c;
-    left:5vw;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    
-  }
-  .join {
-    transform: translateX(-25vw);
-  }
-  @media only screen and (max-width:768px ) {
-    .w {
-      width:80vw;
-    }
-    .resize{ margin: 0px;
-      
-    }
-    .join{
-      
-      margin-right: -25vw;
-    }
-    
-  .color {
-    background-color: #23242a;
-    cursor: pointer;
-  }
-  
-  
-    .hang{
-    position: fixed;
-    
-   
-    font-weight: 900;
-    top:8vh;
-    
-  } 
-  .pushdown{
-    height: 78vh;
-  }
-  .nav {
-    width: 87vw;
-  }
-  }
-  .smooth {
-    transition: 0.5s;
-  }
-  @media only screen and (min-width:1000px ) {
-    .containBody{
-      width: 100vw;
-    }
-    .join{
-      
-      margin-right: -110vw;
-    }
-    .nav {
-      width: 830px;
-      transform: translateX(10vw);
-    }
-    .stay {
-      
-      width: 480px;
-     
-      
-    }
-    .hang {
-      transform: translateX(-250px);
-    }
-  }
-  @media only screen and (min-width:768px ) and (max-width:1000px){
-    .containBody{
-      width: 99vw;
-    }
-    .stay {
-      width: 480px;
-      
-    }
-    .join{
-      
-      margin-right: -140vw;
-    }
-    .pushdown{
-      height: 78vh;
-      /* margin-left: 0.5vw;
-      margin-right: 0.5vw; */
-    }
-    .hang{
-      /* width: 85vw; */
-      
-      transform: translateX(-250px);
-    
-      
-      font-weight: 900;
-      
-    } 
-    .resize{ margin: 0px;
-      
-      width: 50vw;
-   }
-   
-   div Navbar {
-    background-color: red;
-   }
-   .dropdown {
-  
-    transform: translateX(100vw);
-  }
-  .nav {
-    width: 87vw;
-  }
-  }
-  .passcode {
-    display: flex;
+  /* auth js */
 
-  }
-  .passcode .textinput {
-    border:1.6px solid grey;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-right: none;
-    opacity: 1;
-    background-color: white;
-    color: #1c1c1c;
-    padding: 0px 10px;
-    font-weight: 900;
-    width: 450px;
-    transition: 1s;
-  }
+
   .passcode .textinput:active{
     border: 1.6px solid #3c9E65;
   }
@@ -249,26 +83,12 @@
     border-left: none;
   }
   .containedImages {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    height: 45px;
-    width: 40px;
-    background-color: #1c1c1c;
     border:1.6px solid grey;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-left: none;
   }
   .containedImages img:nth-child(1) {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
     display: none;
   }
-  .containedImages img:nth-child(2){
-    cursor: pointer;
-    
-  }
+
    /* ending of custom styling */
   
