@@ -6,12 +6,12 @@ import "./customStyles.css";
 import { useState } from 'react';
 import { Card, Dropdown, Navbar } from 'flowbite-react';
 import  togglewhite  from '../assets/togglewhite.svg'
-import  toggleBlack  from '../assets/toggleBlack.svg'
+import  toggleblack  from '../assets/toggleblack.svg'
 export default function Account() {
 
 
   const [Theme,setTheme] = useState("bg-[#1c1c1c]")
-  const [src,setSrc] = useState(toggleBlack)
+  const [src,setSrc] = useState(toggleblack)
   const [rotate,setRotate] = useState("rotate-[90deg] bg-white rounded-[20px]")
   const changeBgColor = () => {
       if (Theme === "bg-[#1c1c1c]"){
@@ -21,7 +21,7 @@ export default function Account() {
         
       }else{
         setTheme("bg-[#1c1c1c]")
-        setSrc(toggleBlack)
+        setSrc(toggleblack)
         setRotate("rotate-[90deg] bg-white rounded-[20px]")
       }
   }

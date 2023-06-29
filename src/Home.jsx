@@ -1,14 +1,14 @@
 import Hero from "./components/Hero";
 import Demo from "./components/Demo";
-// import Account from "./components/Account"
+import Account from "./components/Account"
 import "./App.css";
 
 const Home = () => {
   return (
     <main>
      
-      {/* <Account /> */}
-      <div className='main'>
+      <Account />
+      {/* <div className='main'>
         <div className='gradient' />
       </div>
       
@@ -18,7 +18,7 @@ const Home = () => {
         <Demo />
         
         
-      </div>
+      </div> */}
     </main>
   );
 };
