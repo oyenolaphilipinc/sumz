@@ -140,14 +140,14 @@ export default function Account() {
       </Navbar.Collapse>
     
     </Navbar>
-    <div className="mt-[12vh] mx-auto border stay  w-[350px] sm:w-[400px] md:w-[450px] lg:w-[450px] xl:w-[450px]  bg-[#23242a]  border-t-white py-12 flex justify-around">
+    <div className="mt-[12vh] border stay  w-[350px] sm:w-[400px] md:w-[450px] lg:w-[450px] xl:w-[450px]  bg-[#23242a]  border-t-white py-12 flex justify-around">
         <h1 className="text-2xl  text-white-900 font-[800]">Dashboard</h1>
         <a href="/summarize">
         <button className="border border-white bg-black text-white px-4 py-1.5 rounded-xl font-bold hover:bg-white hover:text-black  hover:border-black">Summarize</button>
         </a>
     </div>
     <div className="
-    mt-6 stay mx-auto  relative 
+    mt-6 stay  relative 
     rounded-tr-[20px] rounded-tl-[20px]
     rounded-br-[10px] rounded-bl-[10px]
     overflow-hidden w-[350px] sm:w-[400px] md:w-[450px] lg:w-[450px] xl:w-[450px]
@@ -156,7 +156,7 @@ export default function Account() {
     <div className="borderLine2"></div>
         <Card className="
         h-[507px]
-      
+         translate-y-[50px]
         rounded-tl-[15px] mt-[55px]  
         bg-[#23242a] mx-[3px]
         rounded-tr-[15px]">
