@@ -40,8 +40,8 @@ export default function Account() {
       
       className="border w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] xl:w-[500px] 
       transition-all ease-in duration-0.6s
-      bg-[#23242a]  z-10 border-none  border-gray-100  top-0 left-[calc((100%-300px)/2)] sm:left-[calc((100%-350px)/2)]
-      rounded-bl-[10px] rounded-br-[10px] mx-auto fixed md:left-[calc((100%-400px)/2)] xl:left-[calc((100%-500px)/2)] lg:left-[calc((100%-450px)/2)]
+      bg-[#23242a]  z-10 border-none  border-gray-100  top-0 
+      rounded-bl-[10px] rounded-br-[10px] mx-auto fixed left-[calc((100%-300px)/2)] sm:left-[calc((100%-350px)/2)] md:left-[calc((100%-400px)/2)] xl:left-[calc((100%-500px)/2)] lg:left-[calc((100%-450px)/2)]
       "
     >
       <Navbar.Brand href="/">
@@ -140,13 +140,14 @@ export default function Account() {
       </Navbar.Collapse>
     
     </Navbar>
-    <div className="mt-[12vh] border  w-[300px] sm:w-[350px] md:w-[400px] lg:w-[400px] xl:w-[400px]  bg-[#23242a]  border-t-white py-12 flex justify-around">
+    <div className="mt-[12vh] border  w-[300px] sm:w-[350px] md:w-[400px] lg:w-[400px] xl:w-[400px]  left-[calc((100%-300px)/2)] sm:left-[calc((100%-350px)/2)] md:left-[calc((100%-400px)/2)] xl:left-[calc((100%-400px)/2)] lg:left-[calc((100%-400px)/2)] bg-[#23242a]  border-t-white py-12 flex justify-around">
         <h1 className="text-2xl  text-white-900 font-[800]">Dashboard</h1>
         <a href="/summarize">
         <button className="border border-white bg-black text-white px-4 py-1.5 rounded-xl font-bold hover:bg-white hover:text-black  hover:border-black">Summarize</button>
         </a>
     </div>
     <div className="
+      left-[calc((100%-300px)/2)] sm:left-[calc((100%-350px)/2)] md:left-[calc((100%-400px)/2)] xl:left-[calc((100%-400px)/2)] lg:left-[calc((100%-400px)/2)]
     mt-6  relative 
     rounded-tr-[20px] rounded-tl-[20px]
     rounded-br-[10px] rounded-bl-[10px]
@@ -156,7 +157,7 @@ export default function Account() {
     <div className="borderLine2"></div>
         <Card className="
         h-[507px]
-         translate-y-[5px]
+         translate-y-[-50px]
         rounded-tl-[15px] mt-[55px]  
         bg-[#23242a] mx-[3px]
         rounded-tr-[15px]">
