@@ -38,10 +38,10 @@ export default function Account() {
     <div className=''>
     <Navbar
       
-      className="border w-[300px] sm:w-[350px] md:w-[450px] lg:w-[500px] xl:w-[550px] 
+      className="border w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] xl:w-[500px] 
       transition-all ease-in duration-0.6s
-      bg-[#23242a]  z-10 border-none  border-gray-100  top-0 left-[calc((100%-400px)/2)] sm:left-[calc((100%-450px)/2)]
-      rounded-bl-[10px] rounded-br-[10px] mx-auto fixed md:left-[calc((100%-500px)/2)] xl:left-[calc((100%-600px)/2)] lg:left-[calc((100%-550px)/2)]
+      bg-[#23242a]  z-10 border-none  border-gray-100  top-0 left-[calc((100%-300px)/2)] sm:left-[calc((100%-350px)/2)]
+      rounded-bl-[10px] rounded-br-[10px] mx-auto fixed md:left-[calc((100%-400px)/2)] xl:left-[calc((100%-500px)/2)] lg:left-[calc((100%-450px)/2)]
       "
     >
       <Navbar.Brand href="/">
@@ -140,7 +140,7 @@ export default function Account() {
       </Navbar.Collapse>
     
     </Navbar>
-    <div className="mt-[12vh] mx-auto border stay  w-[300px] sm:w-[350px] md:w-[450px] lg:w-[500px] xl:w-[550px]  bg-[#23242a]  border-t-white py-12 flex justify-around">
+    <div className="mt-[12vh] mx-auto border stay  w-[300px] sm:w-[350px] md:w-[400px] lg:w-[400px] xl:w-[400px]  bg-[#23242a]  border-t-white py-12 flex justify-around">
         <h1 className="text-2xl  text-white-900 font-[800]">Dashboard</h1>
         <a href="/summarize">
         <button className="border border-white bg-black text-white px-4 py-1.5 rounded-xl font-bold hover:bg-white hover:text-black  hover:border-black">Summarize</button>
