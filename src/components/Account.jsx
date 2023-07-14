@@ -140,7 +140,7 @@ export default function Account() {
       </Navbar.Collapse>
     
     </Navbar>
-    <div className="mt-[12vh] border  w-[300px] sm:w-[350px] md:w-[400px] lg:w-[400px] xl:w-[400px]  left-[calc((100%-300px)/2)] sm:left-[calc((100%-350px)/2)] md:left-[calc((100%-400px)/2)] xl:left-[calc((100%-400px)/2)] lg:left-[calc((100%-400px)/2)] bg-[#23242a]  border-t-white py-12 flex justify-around">
+    <div className="mt-[12vh] border relative w-[300px] sm:w-[350px] md:w-[400px] lg:w-[400px] xl:w-[400px]  left-[calc((100%-300px)/2)] sm:left-[calc((100%-350px)/2)] md:left-[calc((100%-400px)/2)] xl:left-[calc((100%-400px)/2)] lg:left-[calc((100%-400px)/2)] bg-[#23242a]  border-t-white py-12 flex justify-around">
         <h1 className="text-2xl  text-white-900 font-[800]">Dashboard</h1>
         <a href="/summarize">
         <button className="border border-white bg-black text-white px-4 py-1.5 rounded-xl font-bold hover:bg-white hover:text-black  hover:border-black">Summarize</button>
