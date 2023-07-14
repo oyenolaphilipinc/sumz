@@ -70,9 +70,9 @@ export default function Auth() {
         id="password1"
         required
         type="password"
-        className='textinput rounded-tl-[10px] rounded-bl-[10px] border-r-0 opacity-100 bg-white text-black px-[10px] font-[900] w-[400px] transition-all duration-1000 '
+        className='textinput rounded-tl-[10px] rounded-bl-[10px] border-r-0 opacity-100 bg-[#1c1c1c] text-white px-[10px] font-[900] w-[85vw] transition-all duration-1000 '
         />
-    <div className="containedImages flex justify-center  h-[45px] w-[50px] bg-white rounded-tr-[10px] rounded-br-[10px] border-l-0">
+    <div className="containedImages flex justify-center  h-[45px] w-[10vw] bg-[#1c1c1c] rounded-tr-[10px] rounded-br-[10px] border-l-0">
 
     <img
       onClick={handleSee}
