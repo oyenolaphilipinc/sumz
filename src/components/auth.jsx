@@ -51,7 +51,7 @@ export default function Auth() {
         placeholder="name@flowbite.com"
         type="email"
         value={email}
-        className="font-[1000]"
+        className="font-[1000] bg-[#1c1c1c] text-white"
         required={true}
         onChange={(e) => setEmail(e.target.value)}
       />
@@ -70,7 +70,7 @@ export default function Auth() {
         id="password1"
         required
         type="password"
-        className='textinput rounded-tl-[10px] rounded-bl-[10px] border-r-0 opacity-100 bg-[#1c1c1c] text-white px-[10px] font-[900] w-[85vw] transition-all duration-1000 '
+        className='textinput rounded-tl-[10px] rounded-bl-[10px] border-r-0 opacity-100 bg-[#1c1c1c] text-white px-[10px] font-[900] w-[89.5vw] transition-all duration-1000 '
         />
     <div className="containedImages flex justify-center  h-[45px] w-[10vw] bg-[#1c1c1c] rounded-tr-[10px] rounded-br-[10px] border-l-0">
 
