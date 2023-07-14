@@ -46,7 +46,7 @@ export default function Auth() {
           value="Your email"
         />
       </div>
-      <TextInput
+      <input
         id="email1"
         placeholder="name@flowbite.com"
         type="email"
@@ -77,7 +77,7 @@ export default function Auth() {
     <img
       onClick={handleSee}
       src={EyesClosed}
-      className="w-[30px] h-[30px] cursor-pointer"
+      className="w-[9vw] h-[40px] cursor-pointer"
       >
     </img>
     <img
