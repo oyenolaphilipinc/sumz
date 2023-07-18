@@ -156,7 +156,7 @@ export default function Account() {
     <div className="borderLine"></div>
     <div className="borderLine2"></div>
         <Card className="
-        h-[507px]
+        h-[509px]
          translate-y-[-50px]
         rounded-tl-[15px] mt-[55px]  
         bg-[#23242a] mx-[3px]

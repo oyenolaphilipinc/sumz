@@ -26,7 +26,7 @@ export default function Auth() {
   const handleSee =() => {
     document.querySelector('.textinput').setAttribute('type','password')
     document.querySelector('.containedImages img:nth-child(1)').style.display="none"
-    document.querySelector('.containedImages img:nth-child(2)').style.display="inline"
+    document.querySelector('.containedImages img:nth-child(2)').style.display="block"
 
   }
   const handleHide =() => {
@@ -51,7 +51,7 @@ export default function Auth() {
         placeholder="name@flowbite.com"
         type="email"
         value={email}
-        className="font-[1000] bg-[#1c1c1c] text-white"
+        className="font-[1000] bg-[#1c1c1c] w-[100vw] rounded-[10px] text-white"
         required={true}
         onChange={(e) => setEmail(e.target.value)}
       />
