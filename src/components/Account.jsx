@@ -158,8 +158,8 @@ export default function Account() {
         <Card className="
         h-[509px]
          translate-y-[-48px]
-        rounded-tl-[15px] mt-[55px]  
-        bg-[#23242a] mx-[3px]
+        rounded-tl-[15px] mt-[50px]  
+        bg-[#23242a] mx-[4px]
         rounded-tr-[15px]">
             <h1 className="text-center sm:text-[15px] text-[15px] md-[15px]  xl:text-[15px] lg-[15px] transition duration-[0.5s] ease-in  text-white-700 font-bold">Summarize easily with the power of AI</h1>
             <img src="https://app.dub.sh/_static/illustrations/shopping-call.svg" height={350} width={370} className="mx-auto"/>
