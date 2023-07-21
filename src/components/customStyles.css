@@ -83,7 +83,7 @@
     border-left: none;
   }
   .containedImages {
-    align-items: center;
+    
     border:1.6px solid grey;
   }
   .containedImages img:nth-child(1) {

@@ -32,7 +32,7 @@ export default function Auth() {
   const handleHide =() => {
     document.querySelector('.textinput').setAttribute('type','text')
     document.querySelector('.containedImages img:nth-child(2)').style.display="none"
-    document.querySelector('.containedImages img:nth-child(1)').style.display="inline"
+    document.querySelector('.containedImages img:nth-child(1)').style.display="block"
 
   }
   return (
